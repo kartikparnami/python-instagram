@@ -1,6 +1,8 @@
 - - -
 
-**_This project is not actively maintained. Proceed at your own risk!_**
+**_This project is not actively maintained by Facebook. I am trying to mantain this according to the features I need. Proceed at your own risk!_**
+
+Newest Update: Added album support by fixing KeyError: 'videos' issue.
 
 - - - 
 
