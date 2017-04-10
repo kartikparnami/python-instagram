@@ -82,7 +82,7 @@ class Media(ApiModel):
             new_media.images[version] = Image.object_from_dictionary(version_info)
 
         if new_media.type == 'video':
-            if 'video' in entry:
+            if 'videos' in entry:
                 new_media.videos = {}
                 for version, version_info in six.iteritems(entry['videos']):
                     new_media.videos[version] = Video.object_from_dictionary(version_info)
